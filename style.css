@@ -1,0 +1,75 @@
+body {
+     margin:0;
+     padding: 0;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+h1{
+ font-family: 'Arial';
+ font-size: 33px;
+ text-transform: uppercase;
+ text-align: center;
+ z-index: 2;
+}
+
+h2 {
+ font-family: 'Arial';
+ font-size: 21px;
+}
+
+.textboxclass {
+ background-color: white;
+ width: 1000px;
+ margin-left: 300px;
+ font-family: 'Arial';
+ font-weight: normal;
+ text-align: justify;
+ font-size: 15px;
+}
+
+.menubar{
+ height: 100%;
+ width: 15%;
+ position: fixed;
+ z-index: 1;
+ top:0;
+ left:0;
+ background-color: grey;
+ overflow-x: hidden;
+ padding-top: 30px;
+ margin-top: 5%;
+}
+.menubar a {
+ padding: 15px;
+ font-size: 21px;
+ color: #81;
+ display: block;
+}
+.menubar a:hover {
+ color: white;
+}
+
+.footer {
+ position: fixed;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ background-color: black;
+ color: white;
+ text-align: center;
+}
+
+.header {
+ left: 0;
+ top: : 0;
+ width: 100%;
+ background-color: grey;
+ color: white;
+ text-align: center;
+}
+
+.column-3 {
+ float: left;
+ width: 33%;
+}`
