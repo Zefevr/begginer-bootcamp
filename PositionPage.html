@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Beginner Bootcamp</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        }
+      body{
+            background-image: url("tlo01.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: relative;
+            background-size: 100%;
+            left: 0; top: 0;
+             margin:0;
+            }
+   </style>
+</head>
+ <body>
+
+   <div class = "header">
+   <h1>Welcome to our first Web Page</h1>
+   </div>
+
+
+   <div class=menubar>
+    <a href="index.html">HOME</a>
+    <a href="structurePage.html">HTML/ Structure</a>
+    <a href="tagsPage.html">HTML/ Tags & Attributes</a>
+    <a href="linksPage.html">HTML/ Links</a>
+    <a href="introductionPage.html">CSS/ Introduction</a>
+    <a href="colorPage.html">CSS/ Color, Text and Images</a>
+    <a href="BoxModelPage.html">CSS/ Box Model</a>
+    <a href="PositionPage.html">CSS/ Positioning</a>
+    <a href="flexboxPage.html">CSS/ FlexBox</a>
+    <a href="cleanCodePage.html">Clean Code/ Refactoring</a>
+    <a href="tipsPage.html">Clean Code/ Tips</a>
+  </div>
+    <div class="content">
+      <h2>CSS/ Positioning</h2>
+      <p>When it comes to building layouts and positioning content on a page there are a handful of different techniques to use. Which technique to use largely depends on the content and the goals of the page, as some techniques may be better than others.
+      For example, the ability to float elements side by side provides a nice, clean layout that is receptive to the different elements on a page. However, when more strict control is needed, elements may be positioned using other techniques, including relative or absolute positioning.
+      Every HTML element has a default display value depending on what type of element it is. The default display value for most elements is block or inline.
+      <h3>Block-level Elements</h3>
+      A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).
+      <h3>Inline Elements</h3>
+      An inline element does not start on a new line and only takes up as much width as necessary.
+      </p>
+      <table>
+        <tr>
+          <th>value</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>static</td>
+          <td>Default value. Elements render in order, as they appear in the document flow</td>
+        </tr>
+        <tr>
+          <td>absolute</td>
+          <td>The element is positioned relative to its first positioned (not static) ancestor element</td>
+        </tr>
+        <tr>
+          <td>fixed</td>
+          <td>The element is positioned relative to the browser window</td>
+        </tr>
+        <tr>
+          <td>relative</td>
+          <td>The element is positioned relative to its normal position, so "left:20px" adds 20 pixels to the element's LEFT position</td>
+        </tr>
+        <tr>
+          <td>sticky</td>
+          <td>The element is positioned based on the user's scroll position
+          		A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).</td>
+         </tr>
+         <tr>
+           <td>initial</td>
+           <td>Sets this property to its default value.</td>
+          </tr>
+          <tr>
+            <td>inherit</td>
+            <td>	Inherits this property from its parent element.</td>
+         </tr>
+       </table>
+
+       <h3>make an object stick to top of screen</h3>
+
+       <p>Sticky positioning in CSS lets us build some really neat interactions in very few lines of code. It’s useful for any time you want a UI element to stick around in view as the user is scrolling, but not become sticky until the element gets to a specific distance from the top/bottom/left/right egde of the scrolling viewport.
+          Note: Not supported in IE/Edge 15 or earlier. Supported in Safari from version 6.1 with a -webkit- prefix.
+       </p>
+     </div>
+
+
+
+    <div class="footer">
+     <h2> Malgorzata Bram Lennart Ceferino</h2>
+    </div>
+
+ </body>
+</html>

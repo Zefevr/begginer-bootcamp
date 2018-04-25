@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Beginner Bootcamp</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        }
+      body{
+            background-image: url("tlo01.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: relative;
+            background-size: 100%;
+            left: 0; top: 0;
+             margin:0;
+            }
+   </style>
+</head>
+
+ <body>
+
+   <div class = "header">
+   <h1>Welcome to our first Web Page</h1>
+   </div>
+
+
+   <div class=menubar>
+    <a href="index.html">HOME</a>
+    <a href="structurePage.html">HTML/ Structure</a>
+    <a href="tagsPage.html">HTML/ Tags & Attributes</a>
+    <a href="linksPage.html">HTML/ Links</a>
+    <a href="introductionPage.html">CSS/ Introduction</a>
+    <a href="colorPage.html">CSS/ Color, Text and Images</a>
+    <a href="BoxModelPage.html">CSS/ Box Model</a>
+    <a href="PositionPage.html">CSS/ Positioning</a>
+    <a href="flexboxPage.html">CSS/ FlexBox</a>
+    <a href="cleanCodePage.html">Clean Code/ Refactoring</a>
+    <a href="tipsPage.html">Clean Code/ Tips</a>
+  </div>
+    <div class="content">
+      <p>
+        <h3>CSS/ FlexBox</h3>
+        In a perfect world of browser support, the reason you'd choose to use flexbox is because you want to lay a collection of items out in one direction or another. As you lay out your items you want to control the dimensions of the items in that one dimension, or control the spacing between items. These are the uses that flexbox was designed for. You can read more about the difference between flexbox and CSS Grid Layout in Relationship of Flexbox to other layout methods, where we discuss
+        The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning.
+        <br>
+        with flexbox you can distribute the space outside and inside the item, align the item horizontally and vertically and center the item.
+
+        There are a couple of nifty things you can do with flexbox.
+
+        <h3>Flexbox Elements</h3>
+        To start using the Flexbox model, you need to first define a flex container.
+        <br>
+          <img src="images/flex1.jpg" class="exImages"/>
+        <br>
+        The element above represents a flex container (the blue area) with three flex items.
+
+        <h3>Example</h3>
+        <pre>
+          &lt;div class="flex-container"&gt;
+            &lt;div&gt;1&lt;/div&gt;
+            &lt;div&gt;2&lt;/div&gt;
+            &lt;div&gt;3&lt;/div&gt;
+          &lt;/div&gt;
+        </pre>
+
+        <h3>The flex-direction Property</h3>
+        The flex-direction property defines in which direction the container wants to stack the flex items.
+        <br>
+          <img src="images/flex2.jpg" class="exImages"/>
+        <br>
+        for example the column value stacks the flex items vertically
+        <pre>
+          .flex-container {
+            display: flex;
+            flex-direction: column;
+          }
+        </pre>
+
+      <h3>The Flex-wrap Property</h3>
+      The flex-wrap property specifies whether the flex items should wrap or not.
+      The examples below have 12 flex items, to better demonstrate the flex-wrap property. <br<
+      <img src="images/flex3.jpg"  class="exImages"/>
+
+      <pre>
+        .flex-container {
+          display: flex;
+          flex-wrap: wrap;
+        }
+      </pre>
+
+      <h3>The justify-content Property</h3>
+      The justify-content property is used to align the flex items:
+    <br>
+      <img src="images/flex4.jpg" class="exImages"/>
+
+      <pre>
+        .flex-container {
+          display: flex;
+          justify-content: center;
+        }
+      </pre>
+
+
+
+      </p>
+    </div>
+
+
+
+    <div class="footer">
+     <h2> Malgorzata Bram Lennart Ceferino</h2>
+    </div>
+
+ </body>
+</html>

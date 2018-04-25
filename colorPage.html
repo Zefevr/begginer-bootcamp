@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Beginner Bootcamp</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        }
+      body{
+            background-image: url("tlo01.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: relative;
+            background-size: 100%;
+            left: 0; top: 0;
+             margin:0;
+            }
+   </style>
+</head>
+
+ <body>
+
+   <div class = "header">
+   <h1>Welcome to our first Web Page</h1>
+   </div>
+
+
+   <div class=menubar>
+    <a href="index.html">HOME</a>
+    <a href="structurePage.html">HTML/ Structure</a>
+    <a href="tagsPage.html">HTML/ Tags & Attributes</a>
+    <a href="linksPage.html">HTML/ Links</a>
+    <a href="introductionPage.html">CSS/ Introduction</a>
+    <a href="colorPage.html">CSS/ Color, Text and Images</a>
+    <a href="BoxModelPage.html">CSS/ Box Model</a>
+    <a href="PositionPage.html">CSS/ Positioning</a>
+    <a href="flexboxPage.html">CSS/ FlexBox</a>
+    <a href="cleanCodePage.html">Clean Code/ Refactoring</a>
+    <a href="tipsPage.html">Clean Code/ Tips</a>
+  </div>
+
+  <div class="content">
+      <h2>How do you display a background(color), a text color, an image?</h2>
+      <p>How do you display a background(color), a text color, an image?
+     The background color property specifies the background color of an element.
+The background color of a page is set like this:
+
+<h3>Example:</h3>
+&lt;
+body {
+    background-color: lightblue;
+}
+&gt;
+
+<br>The color property is used to set the color of the text. The color is specified by:
+	<li>a color name - like "red"</li>
+	<li>a HEX value - like "#ff0000"</li>
+	<li>an RGB value - like "rgb(255,0,0)"</li>
+</p>
+
+<h2>How do you work with fonts?</h2>
+<p>
+  In CSS, there are two types of font family names:
+	<li>generic family - a group of font families with a similar look (like "Serif" or "Monospace")</li>
+	<li>font family - a specific font family (like "Times New Roman" or "Arial")</li>
+</p>
+
+<h2>Font Family</h2>
+<p>
+  The font family of a text is set with the font-family property.
+The font-family property should hold several font names as a "fallback" system. If the browser does not support the first font, it tries the next font, and so on.
+Start with the font you want, and end with a generic family, to let the browser pick a similar font in the generic family, if no other fonts are available.
+<h2>Font Style</h2>
+The font-style property is mostly used to specify italic text.
+This property has three values:
+<li>normal - The text is shown normally</li>
+<li>italic - The text is shown in italics</li>
+<li>oblique - The text is "leaning" (oblique is very similar to italic, but less supported)</li>
+</p>
+
+</div>
+
+
+
+    <div class="footer">
+     <h2> Malgorzata Bram Lennart Ceferino</h2>
+    </div>
+
+ </body>
+</html>
