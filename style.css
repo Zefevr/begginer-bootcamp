@@ -18,27 +18,25 @@ h2 {
  font-size: 21px;
 }
 
-.textboxclass {
+.content {
  background-color: white;
- width: 1000px;
+ width: auto;
  margin-left: 300px;
  font-family: 'Arial';
  font-weight: normal;
  text-align: justify;
  font-size: 15px;
+ padding: 2%;
 }
 
 .menubar{
  height: 100%;
  width: 15%;
  position: fixed;
- z-index: 1;
- top:0;
- left:0;
  background-color: grey;
  overflow-x: hidden;
- padding-top: 30px;
- margin-top: 5%;
+ /* padding-top: 30px; */
+ float: left;
 }
 .menubar a {
  padding: 15px;
